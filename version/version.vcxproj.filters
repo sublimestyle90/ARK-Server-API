@@ -80,8 +80,8 @@
     <Filter Include="Core\Public\Atlas">
       <UniqueIdentifier>{bab0c67e-ce63-4e52-9209-74abbfd6ffaf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Public\Database">
-      <UniqueIdentifier>{b2b11b2f-f65c-41cd-b3d8-2008bbe88eaa}</UniqueIdentifier>
+    <Filter Include="Core\Private\UE">
+      <UniqueIdentifier>{15bcd933-8ce4-40d3-81a0-8add08818c9b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -431,12 +431,6 @@
     <ClInclude Include="Core\Private\Commands.h">
       <Filter>Core\Private</Filter>
     </ClInclude>
-    <ClInclude Include="Core\Public\Database\Sqllite.h">
-      <Filter>Core\Public\Database</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\Public\Database\Mysql.h">
-      <Filter>Core\Public\Database</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="version.cpp" />
@@ -490,6 +484,9 @@
     </ClCompile>
     <ClCompile Include="Core\Private\Commands.cpp">
       <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\UE\UE.cpp">
+      <Filter>Core\Private\UE</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
